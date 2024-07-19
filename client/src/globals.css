@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black-pure: hsl(250, 0%, 0%);
+    --black: hsl(240, 20%, 20%);
+
+    --white: hsl(55, 100%, 100%);
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4,
+p {
+    font-size: 1rem;
+}
