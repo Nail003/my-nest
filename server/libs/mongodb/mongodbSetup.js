@@ -1,6 +1,7 @@
 import { MongoClient } from "mongodb";
-const uri =
-    "mongodb+srv://mynest:qLvHrd8a1fqLTAND@cluster0.pozq30s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+import env from "dotenv";
+
+const uri = process.env.MONGO_CREDENTIALS;
 const dataBase = "mynest";
 
 export async function mongodbSetup(callback) {
