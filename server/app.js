@@ -1,5 +1,7 @@
 import cors from "cors";
 import express from "express";
+import env from "dotenv";
+
 import {
     loginRouter,
     messagesRoute,
@@ -8,7 +10,7 @@ import {
 } from "./routes/index.js";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -23,6 +25,9 @@ app.use("/signup", signUpRouter);
 app.use("/login", loginRouter);
 app.use("/messages", messagesRoute);
 app.use("/user", userRouter);
+app.use("/", (_req, res) => {
+    res.send("Server is running");
+});
 
 app.listen(port);
 console.log(`Server running on port http://localhost:${port}`);
