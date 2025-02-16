@@ -1,6 +1,6 @@
 # My Nest
 
-My Nest is a web application built to serve as a personal dashboard and organizer. Developed as one of my TOP assignments, this project combines modern web technologies and efficient tooling to deliver a smooth, interactive experience.
+My Nest is an online chat app that you can use to connect with people anonymously.
 
 ## Table of Contents
 
