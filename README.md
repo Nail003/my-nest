@@ -77,5 +77,3 @@ If you encounter any issues or have suggestions for improvement, please feel fre
 My Nest was created as part of my TOP assignment. It blends modern web technologies with effective design principles to provide a personal dashboard that is both functional and user-friendly.
 
 ---
-
-Feel free to modify or expand any section as your project evolves!
