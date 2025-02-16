@@ -15,7 +15,7 @@ My Nest is a web application built to serve as a personal dashboard and organize
 
 ## Live Demo
 
-Experience My Nest live: [My Nest Live](https://nail003.github.io/my-nest)
+Experience My Nest live: [My Nest Live](https://nail003.github.io/my-nest-frontend)
 
 ## Features
 
@@ -67,10 +67,6 @@ This command builds the project and deploys it to your GitHub Pages site.
 ## Acknowledgements
 
 - [The Odin Project](https://www.theodinproject.com) – for providing the resources and inspiration behind this project.
-
-## Feedback
-
-If you encounter any issues or have suggestions for improvement, please feel free to report them via my [LinkedIn profile](https://www.linkedin.com/in/danial-zafar-dev).
 
 ## About
 
